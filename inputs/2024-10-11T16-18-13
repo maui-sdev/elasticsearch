@@ -1,0 +1,123 @@
+{
+    "index_faces": {
+        "FaceRecords": [
+            {
+                "Face": {
+                    "FaceId": "1ab4e4a4-0952-4b52-b20c-461e9a7b6b92",
+                    "BoundingBox": {
+                        "Width": 0.19463014602661133,
+                        "Height": 0.5297098755836487,
+                        "Left": 0.4409501552581787,
+                        "Top": 0.12999513745307922
+                    },
+                    "ImageId": "4d5fc875-ef18-3aa9-a9ea-f6d944bf2db1",
+                    "ExternalImageId": "temp-search-image",
+                    "Confidence": 99.9986801147461
+                },
+                "FaceDetail": {
+                    "BoundingBox": {
+                        "Width": 0.19463014602661133,
+                        "Height": 0.5297098755836487,
+                        "Left": 0.4409501552581787,
+                        "Top": 0.12999513745307922
+                    },
+                    "Landmarks": [
+                        {
+                            "Type": "eyeLeft",
+                            "X": 0.49482280015945435,
+                            "Y": 0.33489349484443665
+                        },
+                        {
+                            "Type": "eyeRight",
+                            "X": 0.5812737345695496,
+                            "Y": 0.35889527201652527
+                        },
+                        {
+                            "Type": "mouthLeft",
+                            "X": 0.4861319661140442,
+                            "Y": 0.5212796330451965
+                        },
+                        {
+                            "Type": "mouthRight",
+                            "X": 0.5581337213516235,
+                            "Y": 0.5413804650306702
+                        },
+                        {
+                            "Type": "nose",
+                            "X": 0.5255569219589233,
+                            "Y": 0.4536300301551819
+                        }
+                    ],
+                    "Pose": {
+                        "Roll": 8.097881317138672,
+                        "Yaw": -1.293135166168213,
+                        "Pitch": -1.5969096422195435
+                    },
+                    "Quality": {
+                        "Brightness": 81.69515991210938,
+                        "Sharpness": 99.54999542236328
+                    },
+                    "Confidence": 99.9986801147461
+                }
+            }
+        ],
+        "FaceModelVersion": "7.0",
+        "UnindexedFaces": [],
+        "ResponseMetadata": {
+            "RequestId": "7cdb0126-46d7-4071-9cf8-fe03d9a5a4fb",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "7cdb0126-46d7-4071-9cf8-fe03d9a5a4fb",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "1036",
+                "date": "Fri, 11 Oct 2024 16:19:35 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    "search_users": [
+        {
+            "UserMatches": [
+                {
+                    "Similarity": 99.9991683959961,
+                    "User": {
+                        "UserId": "jared-taylor",
+                        "UserStatus": "ACTIVE"
+                    }
+                }
+            ],
+            "FaceModelVersion": "7",
+            "SearchedFace": {
+                "FaceId": "1ab4e4a4-0952-4b52-b20c-461e9a7b6b92"
+            },
+            "ResponseMetadata": {
+                "RequestId": "f7fdcee3-95f4-4b36-b1da-c2f4acdef0ba",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "f7fdcee3-95f4-4b36-b1da-c2f4acdef0ba",
+                    "content-type": "application/x-amz-json-1.1",
+                    "content-length": "192",
+                    "date": "Fri, 11 Oct 2024 16:19:35 GMT"
+                },
+                "RetryAttempts": 0
+            }
+        }
+    ],
+    "delete_faces": {
+        "DeletedFaces": [
+            "1ab4e4a4-0952-4b52-b20c-461e9a7b6b92"
+        ],
+        "UnsuccessfulFaceDeletions": [],
+        "ResponseMetadata": {
+            "RequestId": "48f96529-0f75-4d6d-b3bd-ee82e3d5695c",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "48f96529-0f75-4d6d-b3bd-ee82e3d5695c",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "88",
+                "date": "Fri, 11 Oct 2024 16:19:35 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    }
+}

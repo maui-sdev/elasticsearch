@@ -1,0 +1,160 @@
+{
+    "detect_faces": {
+        "FaceDetails": [
+            {
+                "BoundingBox": {
+                    "Width": 0.17718371748924255,
+                    "Height": 0.4343235492706299,
+                    "Left": 0.415008544921875,
+                    "Top": 0.2505888342857361
+                },
+                "Landmarks": [
+                    {
+                        "Type": "eyeLeft",
+                        "X": 0.466275155544281,
+                        "Y": 0.4050368368625641
+                    },
+                    {
+                        "Type": "eyeRight",
+                        "X": 0.5426572561264038,
+                        "Y": 0.4203979969024658
+                    },
+                    {
+                        "Type": "mouthLeft",
+                        "X": 0.46325626969337463,
+                        "Y": 0.5665446519851685
+                    },
+                    {
+                        "Type": "mouthRight",
+                        "X": 0.5267362594604492,
+                        "Y": 0.5792632102966309
+                    },
+                    {
+                        "Type": "nose",
+                        "X": 0.49946537613868713,
+                        "Y": 0.4901159405708313
+                    }
+                ],
+                "Pose": {
+                    "Roll": 5.954641342163086,
+                    "Yaw": 2.4413442611694336,
+                    "Pitch": 8.615760803222656
+                },
+                "Quality": {
+                    "Brightness": 81.8866958618164,
+                    "Sharpness": 98.9244613647461
+                },
+                "Confidence": 99.9996566772461
+            },
+            {
+                "BoundingBox": {
+                    "Width": 0.008297443389892578,
+                    "Height": 0.02055036835372448,
+                    "Left": 0.6229536533355713,
+                    "Top": 0.5799384117126465
+                },
+                "Landmarks": [
+                    {
+                        "Type": "eyeLeft",
+                        "X": 0.6262261867523193,
+                        "Y": 0.5899771451950073
+                    },
+                    {
+                        "Type": "eyeRight",
+                        "X": 0.6277377605438232,
+                        "Y": 0.5859882831573486
+                    },
+                    {
+                        "Type": "mouthLeft",
+                        "X": 0.6300031542778015,
+                        "Y": 0.5942143797874451
+                    },
+                    {
+                        "Type": "mouthRight",
+                        "X": 0.6312659978866577,
+                        "Y": 0.5908498764038086
+                    },
+                    {
+                        "Type": "nose",
+                        "X": 0.6301257610321045,
+                        "Y": 0.5903456211090088
+                    }
+                ],
+                "Pose": {
+                    "Roll": 25.47188377380371,
+                    "Yaw": 5.344829559326172,
+                    "Pitch": -15.702293395996094
+                },
+                "Quality": {
+                    "Brightness": 68.0280532836914,
+                    "Sharpness": 1.0484901666641235
+                },
+                "Confidence": 85.77279663085938
+            }
+        ],
+        "ResponseMetadata": {
+            "RequestId": "2be2f565-9aa2-419b-8bac-b544d01f66ff",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "2be2f565-9aa2-419b-8bac-b544d01f66ff",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "1329",
+                "date": "Fri, 11 Oct 2024 17:18:12 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    "search_users_by_image": [
+        {
+            "UserMatches": [
+                {
+                    "Similarity": 99.9953842163086,
+                    "User": {
+                        "UserId": "jared-taylor",
+                        "UserStatus": "ACTIVE"
+                    }
+                }
+            ],
+            "FaceModelVersion": "7",
+            "SearchedFace": {
+                "FaceDetail": {
+                    "BoundingBox": {
+                        "Width": 0.9156451225280762,
+                        "Height": 1.0061372518539429,
+                        "Left": 0.05029105395078659,
+                        "Top": -0.0031316119711846113
+                    }
+                }
+            },
+            "UnsearchedFaces": [],
+            "ResponseMetadata": {
+                "RequestId": "9bb133bb-8f24-464c-b392-6b029660b6d9",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "9bb133bb-8f24-464c-b392-6b029660b6d9",
+                    "content-type": "application/x-amz-json-1.1",
+                    "content-length": "307",
+                    "date": "Fri, 11 Oct 2024 17:18:12 GMT"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        {
+            "UserMatches": [],
+            "FaceModelVersion": "7",
+            "SearchedFace": {},
+            "UnsearchedFaces": [],
+            "ResponseMetadata": {
+                "RequestId": "222f4f37-12ab-4846-b28d-9bbd46af1e86",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "222f4f37-12ab-4846-b28d-9bbd46af1e86",
+                    "content-type": "application/x-amz-json-1.1",
+                    "content-length": "80",
+                    "date": "Fri, 11 Oct 2024 17:18:12 GMT"
+                },
+                "RetryAttempts": 0
+            }
+        }
+    ]
+}
